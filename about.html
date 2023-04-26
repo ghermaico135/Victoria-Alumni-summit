@@ -22,10 +22,9 @@
 	<body>
 		<div class="wrapper-container">
 			<header>
-				<!-- navbar mobile -->
-				<nav
-					class="navbar navbar-expand-sm bg-dark navbar-dark"
-					id="mobile-toolbar">
+				<!-- mobile mobile -->
+				<div 	id="menu-victoria-logo">
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 					<div class="container-fluid">
 						<button
 							class="navbar-toggler"
@@ -37,48 +36,56 @@
 							></span>
 						</button>
 
-						<a class="navbar-brand text-light" href="index.html"
-							><img
+						<a
+							class="navbar-brand text-light"
+							href="index.html">
+							<img
 								class="victoria-logo"
 								src="./asset/images/victoria-university-logo.png"
 								alt="Victoria-university-logo" />
 						</a>
 
-						<div class="collapse navbar-collapse" id="collapsibleNavbar">
-							<span
-								><button
-									type="button"
-									class="btn-close text-light bg-danger mt-2"
-									id="mobile-menu-btn-close"></button>
-							</span>
-							<!-- navigation -->
+						<div id="mobile-toolbar">
+							<div class="collapse navbar-collapse" id="collapsibleNavbar">
+								<!-- close btn -->
+								<span>
+									<button
+										type="button"
+										class="btn-close text-light bg-danger mt-2"
+										id="mobile-menu-btn-close"></button>
+								</span>
 
-							<ul class="navbar-nav conatiner mx-5">
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="./index.html">Home</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="./about.html">About</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="#">Program</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="#">Sponsor</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="#">Log out</a>
-								</li>
-								<li class="nav-item mb-3 border border-5 border-danger p-3">
-									<a class="nav-link text-center text-danger" href="#"
-										>Our legacy</a
-									>
-								</li>
-							</ul>
+								<ul class="navbar-nav conatiner mx-5">
+									<li class="nav-item mb-3">
+										<a class="nav-link active text-light" href="./index.html"
+											>Home</a
+										>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="./about.html">About</a>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="#">Program</a>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="#">Sponsor</a>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="#">Log out</a>
+									</li>
+									<li class="nav-item mb-3 border border-5 border-danger p-3">
+										<a class="nav-link text-center text-danger" href="#"
+											>Our legacy</a
+										>
+									</li>
+								</ul>
+							</div>
 						</div>
+						--
 					</div>
 				</nav>
-
+			</div>
+				<!-- desktop navigation -->
 				<div id="desktop-toolbar">
 					<div class="container-fluid bg-dark">
 						<ul class="nav justify-content-end">
@@ -88,9 +95,9 @@
 								></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-light" href="#"
-									><i class="fa-brands fa-twitter"></i
-								></a>
+								<a class="nav-link text-light" href="#">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link text-light" href="#">English</a>
@@ -103,7 +110,7 @@
 							</li>
 						</ul>
 					</div>
-					<!-- navigation -->
+
 					<nav class="navbar navbar-expand-sm">
 						<div class="container-fluid bg-white">
 							<a class="navbar-brand text-dark" href="index.html"
@@ -115,6 +122,7 @@
 
 							<ul
 								class="navbar-nav conatiner-fluid d-flex justify-content-between align-items-center">
+								
 								<li class="nav-item mx-4" id="desktop-nav">
 									<a class="nav-link text-dark" href="./index.html">Home</a>
 								</li>
@@ -174,21 +182,24 @@
 
 					<div class=" py-2 ">
 						<h1 class="h1 text-danger text-center mb-3 shadow p-4 mb-2 ">
-							VU ALUMNI STUDENT SUMMIT 2023 CREATIVE LOGO </h1> 
+							VU ALUMNI STUDENT SUMMIT 2023 CREATIVE LOGO 
 						</h1>
-						
+						<div class="d-flex justify-content-center"><hr class="bar bg-danger"> </hr></div>
 					</div>
 
 					<div class="bgColor-2 p-3">
 						<p class="hero-intro text-center border border-5 border-white textColor h6">
-							The logo of Alumni VU Summit 2023 was taking from the university official logo.
+							The logo of Alumni VU Summit 2023 was taking from the university official logo. </p>
+							<p class="hero-intro text-center border border-5 border-white textColor" id="hero-into-caption">Our current students have many opportunities to meet our alumni in both social and 
+								professional settings where personal and career experiences are shared.</p>
 						</p>
+							
 					</div>
 					<!-- logo -->
 					
-						<div class="h1 text-danger text-center mb-3 shadow p-4 mb-2 border border-white ">
+						<div class="h1 text-danger text-center mb-3 shadow p-4 mb-2 border border-white" id="vu-summit-logo">
 							<img
-							class="w-50 h-25"
+							class="w-25 h-25"
 							src="./asset/images/victoria-university-logo.png"
 							alt="Victoria-university-logo" /> <br>
 							<small class="text-small">26th~ 28th Agu 2023 Victoria university,Kampala uganda</small>
@@ -196,22 +207,23 @@
 				</section>
 <!-- previous summit -->
 				<section>
-					<div class=" py-2 shadow p-4 mb-2">
-						<h3 class="h1 text-center ">
-							See the past VU Alumni Summits</h1> 
-							<hr class="text-danger w-25 align-items-center"> </hr>
+					<div class="shadow p-4 mb-2">
+						<h3 class="h3 text-center ">
+							See the past VU Alumni Summits
 						</h3>
+						<div class="d-flex justify-content-center"><hr class="bar bg-danger"> </hr></div>
 						<p class="hero-intro text-center h6">
 							Take a look at the past VU Alumni Summits which took place in Kampala
 						</p>
+						
 					</div>
 					<div class="past-summits">
-						<div class="bgConference-img-2019  m-4 shadow px-2 ">
-							<h5 class=" display-4 text-light text-center mt-5 py-5" id="conference-title">2016 VU Alumni Summits </h2>
+						<div class="bgConference-img-2019  m-2 shadow px-2 ">
+							<h5 class=" display-4 text-light text-center mt-2 p-5" id="conference-title">2016 VU Alumni Summits </h2>
 						</div>
 	
-						<div class="bgConference-img-2019  m-4 px-2 ">
-							<h5 class="display-4 text-light text-center mt-5 py-5 " id="conference-title"> 2019 VU Alumni Summits </h2>
+						<div class="bgConference-img-2019 shadow m-2 px-2 ">
+							<h5 class="display-4 text-light text-center mt-2 p-5 " id="conference-title"> 2019 VU Alumni Summits </h2>
 						</div>
 
 					</div>
@@ -219,6 +231,7 @@
 				</section>
 			</main>
 			<footer>
+				<div class="mobile-footer-hidden">
 				<div class="bgColor3   text-center text-light shadow mb-2" >
 					<h3 class="display-6 text-light text-center ">Partners</h3>
 
@@ -236,7 +249,44 @@
 						2023 victoria university kampala.@copy Rights Reserved.
 					</h6>
 				</div>
+			</div>
+				<div class="footer-content-hidden">
+				<div class="bgColor3 text-center text-light shadow mb-2 py-2">
+					<h3 class="display-6 text-light text-center">Partners</h3>
+
+					<ul class="partner d-flex justify-content-between align-items-center">
+						<li class="mx-4">
+							<img
+								class="partner-img partner-image-size-1"
+								src="./asset/images/ruparelia.jpg"
+								alt="" />
+						</li>
+						<li class="mx-4">
+							<img
+								class="partner-img partner-image-size-2"
+								src="./asset/images/Speke-Resort-logo.png"
+								alt="" />
+						</li>
+					</ul>
+				</div>
+
+				<div
+					class="text-center shadow p-2 mb-2 d-flex justify-content-around footer-summit-credit">
+					<h6 class="text-small">
+						<img
+							class="victoria-logo"
+							src="./asset/images/victoria-university-logo.png"
+							alt="Victoria-university-logo" />
+						Victoria university alumni
+					</h6>
+					<h6 class="text-small">
+						2023 victoria university kampala.@copy Rights Reserved.
+					</h6>
+				</div>
+			</div>
 			</footer>
 		</div>
+
+		<script src="./asset/js/vu-alumni.js"></script>
 	</body>
 </html>

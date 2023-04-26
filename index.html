@@ -22,10 +22,9 @@
 	<body>
 		<div class="wrapper-container">
 			<header>
-				<!-- navbar mobile -->
-				<nav
-					class="navbar navbar-expand-sm bg-dark navbar-dark"
-					id="mobile-toolbar">
+				<!-- mobile mobile -->
+				<div id="menu-victoria-logo">
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 					<div class="container-fluid">
 						<button
 							class="navbar-toggler"
@@ -37,48 +36,57 @@
 							></span>
 						</button>
 
-						<a class="navbar-brand text-light" href="index.html"
+						<a
+							class="navbar-brand text-light"
+							href="index.html"
+							
 							><img
 								class="victoria-logo"
 								src="./asset/images/victoria-university-logo.png"
 								alt="Victoria-university-logo" />
 						</a>
 
-						<div class="collapse navbar-collapse" id="collapsibleNavbar">
-							<span
-								><button
-									type="button"
-									class="btn-close text-light bg-danger mt-2"
-									id="mobile-menu-btn-close"></button>
-							</span>
-							<!-- navigation -->
+						<div id="mobile-toolbar">
+							<div class="collapse navbar-collapse" id="collapsibleNavbar">
+								<!-- close btn -->
+								<span
+									><button
+										type="button"
+										class="btn-close text-light bg-danger mt-2"
+										id="mobile-menu-btn-close"></button>
+								</span>
 
-							<ul class="navbar-nav conatiner mx-5">
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="./index.html">Home</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="./about.html">About</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="#">Program</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="#">Sponsor</a>
-								</li>
-								<li class="nav-item mb-3">
-									<a class="nav-link text-light" href="#">Log out</a>
-								</li>
-								<li class="nav-item mb-3 border border-5 border-danger p-3">
-									<a class="nav-link text-center text-danger" href="#"
-										>Our legacy</a
-									>
-								</li>
-							</ul>
+								<ul class="navbar-nav conatiner mx-5">
+									<li class="nav-item mb-3">
+										<a class="nav-link active text-light" href="./index.html"
+											>Home</a
+										>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="./about.html">About</a>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="#">Program</a>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="#">Sponsor</a>
+									</li>
+									<li class="nav-item mb-3">
+										<a class="nav-link text-light" href="#">Log out</a>
+									</li>
+									<li class="nav-item mb-3 border border-5 border-danger p-3">
+										<a class="nav-link text-center text-danger" href="#"
+											>Our legacy</a
+										>
+									</li>
+								</ul>
+							</div>
 						</div>
+						--
 					</div>
 				</nav>
-
+			</div>
+				<!-- desktop navigation -->
 				<div id="desktop-toolbar">
 					<div class="container-fluid bg-dark">
 						<ul class="nav justify-content-end">
@@ -103,7 +111,7 @@
 							</li>
 						</ul>
 					</div>
-					<!-- navigation -->
+
 					<nav class="navbar navbar-expand-sm">
 						<div class="container-fluid bg-white">
 							<a class="navbar-brand text-dark" href="index.html"
@@ -155,7 +163,7 @@
 							VICTORIA UNIVERSITY ALUMNI STUDENT SUMMIT 2023
 						</h1>
 
-						<p class="hero-intro border border-5 border-white p-2">
+						<p class="textColor border border-5 border-white p-2">
 							The university of victoria alumni Summit annually brings together
 							students, faculty, alumni and professionals to hear from
 							world-renowned industry leaders on pressing topics and trends that
@@ -171,10 +179,12 @@
 				</section>
 				<!-- main-program section -->
 				<section class="program-container bgColor py-5">
-					<div class="mb-3 py-4">
+					
 						<h3 class="display-4 text-light text-center">Main Program</h3>
-						<!-- <hr class="bar"> </hr> -->
-					</div>
+						<div class="d-flex justify-content-center">
+							<hr class="bar"> </hr>
+						</div>
+					
 					<!-- program of the day -->
 					<div class="program-content container">
 						<div
@@ -303,123 +313,16 @@
 				<!-- feature speaker -->
 				<section class="feature-speaker-container bgColor-2 py-2">
 					<div class="speaker-content container-fluid">
-						<div class="mb-2 py-4">
+						
 							<h4 class="display-5 text-dark text-center">Feature Speaker</h4>
-						</div>
-						<div class="feature-speaker-bio">
-							<div class="d-flex p-1 speaker-adjust">
-								<img
-									class="speaker-img"
-									src="./asset/images/imgSpeaker-1.png"
-									alt="speaker-img" />
-								<div>
-									<h2>Kamal Barade</h2>
-									<p class="text-danger h5">
-										Sport minister and deputy of guild office
-									</p>
-									<p>
-										Social work graduate and coordinator for university student
-										from nigeria
-									</p>
-								</div>
-							</div>
-
-							<div class="d-flex p-1 speaker-adjust">
-								<img
-									class="speaker-img"
-									src="./asset/images/imgSpker2.png"
-									alt="speaker-img" />
-								<div>
-									<h2>Kamal Barade</h2>
-									<p class="text-danger h5">
-										Sport minister and deputy of guild office
-									</p>
-									<p>
-										Social work graduate and coordinator for university student
-										from nigeria
-									</p>
-								</div>
-							</div>
-
-							<div id="feature-speaker-hidden">
-								<div class="d-flex p-1 speaker-adjust">
-									<img
-										class="speaker-img"
-										src="./asset/images/imgspeaker3.png"
-										alt="speaker-img" />
-									<div>
-										<h2>Kamal Barade</h2>
-										<p class="text-danger h5">
-											Sport minister and deputy of guild office
-										</p>
-										<p>
-											Social work graduate and coordinator for university
-											student from nigeria
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div id="feature-speaker-hidden">
-								<div class="d-flex p-1 speaker-adjust">
-									<img
-										class="speaker-img"
-										src="./asset/images/imgspeaker-4.png"
-										alt="speaker-img" />
-									<div>
-										<h2>Kamal Barade</h2>
-										<p class="text-danger h5">
-											Sport minister and deputy of guild office
-										</p>
-										<p>
-											Social work graduate and coordinator for university
-											student from nigeria
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div id="feature-speaker-hidden">
-								<div class="d-flex p-1 speaker-adjust">
-									<img
-										class="speaker-img"
-										src="./asset/images/speaker-5.png"
-										alt="speaker-img" />
-									<div>
-										<h2>Kamal Barade</h2>
-										<p class="text-danger h5">
-											Sport minister and deputy of guild office
-										</p>
-										<p>
-											Social work graduate and coordinator for university
-											student from nigeria
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div id="feature-speaker-hidden">
-								<div class="d-flex p-1 speaker-adjust">
-									<img
-										class="speaker-img"
-										src="./asset/images/speaker6.png"
-										alt="speaker-img" />
-									<div>
-										<h2>Kamal Barade</h2>
-										<p class="text-danger h5">
-											Sport minister and deputy of guild office
-										</p>
-										<p>
-											Social work graduate and coordinator for university
-											student from nigeria
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+						
+						<div class="d-flex justify-content-center"><hr class="bar bg-danger"> </hr></div>
+<!-- speakers mobile and desktop -->
+						<div class="feature-speaker-bio-mobile"></div>
+						<div class="feature-speaker-bio"> </div>
 
 						<div class="shadow p-1 mb-4 bg-white">
-							<p class="text-center textColor" id="join-program">
+							<p class="text-center textColor-dark" id="join-program">
 								more <span class="text-danger"> V </span>
 							</p>
 						</div>
@@ -462,5 +365,7 @@
 				</div>
 			</footer>
 		</div>
+
+		<script src="./asset/js/vu-alumni.js"></script>
 	</body>
 </html>
