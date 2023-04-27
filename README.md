@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://ghermaico135.github.io/Victoria-Alumni-summit/)
+- [Live Demo Link] (https://www.loom.com/share/06261d80ef69439f9aef94a15d02df3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,7 @@ to open it inside your browser.
 
 ### Deployment
 
-You can deploy this project using [Netlify](https://www.netlify.com/) or [Github Pages](https://pages.github.com/)
+You can deploy this project using [Netlify](https://www.netlify.com/) or [Github Pages](<(https://ghermaico135.github.io/Victoria-Alumni-summit/)>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,7 @@ You can deploy this project using [Netlify](https://www.netlify.com/) or [Github
 
 > Describe 1 - 3 features you will add to the project.
 
-- **Adding other pages like sponser, join, news**
+- **Adding other pages like program,sponsor,**
 - **Adding our legacy section**
 - **Adding Backend and Database and signup**
 

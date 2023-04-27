@@ -87,12 +87,12 @@ speakerDesktop.forEach((speaker) => {
      src=${speaker.speakerImg}
      alt=${speaker.speakerName} />
    <div>
-     <h2>${speaker.speakerName}</h2>
-     <p class="text-danger h5">
+     <h2 class="paragraph-size">${speaker.speakerName}</h2>
+     <p class="text-danger medium-paragraph-size">
      ${speaker.speakerPosition}
       
      </p>
-     <p>
+     <p class="text-small">
      ${speaker.speakerBio}
      </p>
    </div>
@@ -109,13 +109,13 @@ speakerMobile.forEach((speaker) => {
     <div class="feature-speaker-mobile-content">
     <img class="speaker-img"
       src="${speaker.Img}"
-      alt=${speaker.speakerName} />
+      alt=${speaker.Name} />
     <div>
-      <h4 class="p-1">${speaker.Name}</h4>
+      <h4 class="p-1 paragraph-size">${speaker.Name}</h4>
       <p class="text-danger speaker-typo-size">
       ${speaker.Position}
       </p>
-      <p class="speaker-typo-size">
+      <p class="text-small">
       ${speaker.Bio}
       </p>
     </div>

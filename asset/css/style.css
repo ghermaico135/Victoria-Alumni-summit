@@ -39,8 +39,30 @@
   background-color: #ccc;
 }
 
+/* fonts-size */
+.very-small-size {
+  font-size: 1px;
+}
+
+.head-font-size {
+  font-size: 30px;
+}
+
+.paragraph-size {
+  font-size: 17px;
+}
+
+.medium-paragraph-size {
+  font-size: 14px;
+}
+
 .text-small {
-  font-size: 12px;
+  font-size: 10px;
+}
+
+#mobile-navbar-container {
+  margin: 0 auto;
+  width: 100%;
 }
 
 body {
@@ -55,6 +77,10 @@ body {
 
 #mobile-toolbar {
   display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(14, 13, 13, 0.8)), url(../images/artists-perform-at-Victoia-Unuversity.webp);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #desktop-toolbar,
@@ -69,14 +95,12 @@ body {
 .victoria-logo {
   width: 70px;
   height: 50px;
-  margin-left: 10rem;
+  margin-left: 1rem;
 }
 
 .hero-container {
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(14, 13, 13, 0.8)), url(../images/artists-perform-at-Victoia-Unuversity.webp);
-
-  /* background-image: url(../images/header-background-img.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -84,15 +108,11 @@ body {
 
 .hero-intro {
   color: #515151;
-
-  /* color: var(--white); */
 }
 
 .program-container {
   position: relative;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(14, 13, 13, 0.8)), url(../images/artists-perform-at-Victoia-Unuversity.webp);
-
-  /* background-image: url(../images/main-program-background.png); */
   background-repeat: repeat;
   background-size: cover;
   width: 100%;
@@ -249,7 +269,6 @@ body {
 
   .partner-image-size-2 {
     width: 250px;
-    border: 4px solid red;
   }
 
   .footer-summit-credit {
