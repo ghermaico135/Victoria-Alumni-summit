@@ -54,9 +54,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">https://www.loom.com/share/06261d80ef69439f9aef94a15d02df3</a>
 
-- [Live Demo Link] (https://www.loom.com/share/06261d80ef69439f9aef94a15d02df3)
+- [Live Demo Link] ()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

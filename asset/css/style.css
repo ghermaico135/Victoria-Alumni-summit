@@ -175,7 +175,8 @@ body {
   #join-program,
   .mobile-footer-hidden,
   .feature-speaker-bio-mobile,
-  #menu-victoria-logo {
+  #menu-victoria-logo,
+  .btn-more {
     display: none;
   }
 

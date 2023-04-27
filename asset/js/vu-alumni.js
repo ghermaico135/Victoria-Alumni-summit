@@ -122,4 +122,5 @@ speakerMobile.forEach((speaker) => {
   </div>
   `;
 });
+
 featureSpeakerMobile.innerHTML = content;
