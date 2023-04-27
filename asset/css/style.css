@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* color */
+:root {
+  --red-color: #f07f7e;
+  --secondary-color: #6d706e;
+  --grey: #515151;
+  --white: #fff;
+  --black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.textColor {
+  color: #515151;
+  color: var(--white);
+}
+
+.textColor-dark {
+  color: var(--black);
+}
+
+.bgColor {
+  background-color: #272928;
+}
+
+.bgColor-2 {
+  background-color: var(--white);
+}
+
+.bgColor3 {
+  background-color: #444141;
+}
+
+.bgColorGrey {
+  background-color: #ccc;
+}
+
+/* fonts-size */
+.very-small-size {
+  font-size: 1px;
+}
+
+.head-font-size {
+  font-size: 30px;
+}
+
+.paragraph-size {
+  font-size: 17px;
+}
+
+.medium-paragraph-size {
+  font-size: 14px;
+}
+
+.text-small {
+  font-size: 10px;
+}
+
+#mobile-navbar-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.wrapper-container {
+  margin: 0 auto;
+}
+
+#mobile-toolbar {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(14, 13, 13, 0.8)), url(../images/artists-perform-at-Victoia-Unuversity.webp);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#desktop-toolbar,
+.see-program,
+.footer-content-hidden,
+#feature-speaker-hidden,
+#hero-into-caption,
+.feature-speaker-bio {
+  display: none;
+}
+
+.victoria-logo {
+  width: 70px;
+  height: 50px;
+  margin-left: 1rem;
+}
+
+.hero-container {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(14, 13, 13, 0.8)), url(../images/artists-perform-at-Victoia-Unuversity.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero-intro {
+  color: #515151;
+}
+
+.program-container {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(14, 13, 13, 0.8)), url(../images/artists-perform-at-Victoia-Unuversity.webp);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.bar {
+  border-bottom: 4px solid red;
+  width: 15%;
+  z-index: 4;
+}
+
+.speaker-img {
+  width: 150px;
+  height: 120px;
+  margin: 1rem;
+}
+
+.feature-speaker-bio-mobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-speaker-mobile-content {
+  display: flex;
+}
+
+.speaker-typo-size {
+  font-size: 14px;
+}
+
+.bgConference-img-2016 {
+  position: relative;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(../images/conference-image-2019.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  margin: 0.3rem;
+}
+
+.bgConference-img-2019 {
+  position: relative;
+  background-image: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url(../images/student\ conferencec.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  margin: 0.3rem;
+}
+
+.partner {
+  list-style-type: none;
+}
+
+.partner-img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+@media (min-width: 768px) {
+  #mobile-toolbar,
+  #join-program,
+  .mobile-footer-hidden,
+  .feature-speaker-bio-mobile,
+  #menu-victoria-logo,
+  .btn-more {
+    display: none;
+  }
+
+  #desktop-toolbar,
+  #feature-speaker-hidden,
+  .footer-content-hidden,
+  #hero-into-caption {
+    display: block;
+  }
+
+  #desktop-nav a:hover {
+    border-bottom: 2px solid red;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .hero-event-date {
+    margin-left: -2rem;
+  }
+
+  .program-content {
+    display: flex;
+    margin: 0.3rem;
+    overflow: hidden;
+  }
+
+  .bar {
+    border-bottom: 4px solid red;
+    width: 5%;
+  }
+
+  #program-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0.5rem;
+    height: 250px;
+    text-align: center;
+  }
+
+  .program-img {
+    padding: 0;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  #program-task {
+    font-size: 20px;
+  }
+
+  .see-program {
+    display: block;
+    color: white;
+    text-decoration: underline;
+  }
+
+  .feature-speaker-bio {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .speaker-adjust {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .speaker-img {
+    width: 180px;
+    height: 150px;
+    margin: 0.5rem;
+  }
+
+  .partner {
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    height: 15vh;
+  }
+
+  .partner-image-size-1 {
+    margin-left: 10rem;
+    width: 100px;
+  }
+
+  .partner-image-size-2 {
+    width: 250px;
+  }
+
+  .footer-summit-credit {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    padding: 3rem;
+  }
+
+  .text-small {
+    font-size: 20px;
+  }
+
+  /* about page */
+
+  .hero-about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .hero-intro-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5rem;
+  }
+
+  #vu-summit-logo {
+    width: 30%;
+    margin: 0 auto;
+    padding: 3px;
+  }
+
+  .past-summits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .bgConference-img-2016 {
+    width: 50%;
+  }
+
+  .bgConference-img-2019 {
+    width: 50%;
+  }
+
+  #conference-title {
+    font-size: 20px;
+  }
+}
